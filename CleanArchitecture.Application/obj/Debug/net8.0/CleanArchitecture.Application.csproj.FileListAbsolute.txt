@@ -1,0 +1,17 @@
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.deps.json
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Application.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Infrastructure.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\bin\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.csproj.AssemblyReference.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.AssemblyInfoInputs.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.AssemblyInfo.cs
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.csproj.CoreCompileInputs.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArc.03AFA812.Up2Date
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\refint\CleanArchitecture.Application.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\CleanArchitecture.Application.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Application\obj\Debug\net8.0\ref\CleanArchitecture.Application.dll

@@ -1,0 +1,11 @@
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.deps.json
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfo.cs
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll

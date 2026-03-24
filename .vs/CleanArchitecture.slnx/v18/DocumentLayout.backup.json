@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\controllers\\ecommerce\\usermodule\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\controllers\\ecommerce\\usermodule\\auth\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\views\\shared\\layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\views\\ecommerce\\usermodule\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\views\\ecommerce\\usermodule\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture.application\\ecommerce\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\ecommerce\\services\\users\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\controllers\\ecommerce\\dashboard\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\controllers\\ecommerce\\dashboard\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture.application\\ecommerce\\iservices\\users\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\ecommerce\\iservices\\users\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\cleanarchitecture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\cleanarchitecture.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture.domain\\ecommerce\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\ecommerce\\entities\\users\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|e:\\pran-rfl\\practise\\csharp\\cleanarchitecture\\cleanarchitecture.infrastructure\\seeders\\ecommerce\\users\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\seeders\\ecommerce\\users\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Layout.cshtml",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Views\\Shared\\Layout.cshtml",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Views\\Shared\\Layout.cshtml",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Views\\Shared\\Layout.cshtml",
+              "RelativeToolTip": "CleanArchitecture\\Views\\Shared\\Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T12:19:01.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Auth\\Login.cshtml",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Auth\\Login.cshtml",
+              "RelativeToolTip": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAJ4AAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-27T11:37:07.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Controllers\\Ecommerce\\Dashboard\\DashboardController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Controllers\\Ecommerce\\Dashboard\\DashboardController.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Controllers\\Ecommerce\\Dashboard\\DashboardController.cs",
+              "RelativeToolTip": "CleanArchitecture\\Controllers\\Ecommerce\\Dashboard\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:34:17.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\Ecommerce\\IServices\\Users\\IAuthService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Ecommerce\\IServices\\Users\\IAuthService.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\Ecommerce\\IServices\\Users\\IAuthService.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Ecommerce\\IServices\\Users\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:33:37.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Users\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Users\\UserSeeder.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Users\\UserSeeder.cs",
+              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Users\\UserSeeder.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:23:37.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\User.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\User.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\User.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:20:30.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CleanArchitecture",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\CleanArchitecture.csproj",
+              "RelativeDocumentMoniker": "CleanArchitecture\\CleanArchitecture.csproj",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\CleanArchitecture.csproj",
+              "RelativeToolTip": "CleanArchitecture\\CleanArchitecture.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-27T11:17:22.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\Ecommerce\\Services\\Users\\AuthService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Ecommerce\\Services\\Users\\AuthService.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\Ecommerce\\Services\\Users\\AuthService.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Ecommerce\\Services\\Users\\AuthService.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwEsAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:16:22.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Program.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Program.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Program.cs",
+              "RelativeToolTip": "CleanArchitecture\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T11:13:19.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Auth\\AuthController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Auth\\AuthController.cs",
+              "ToolTip": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Auth\\AuthController.cs",
+              "RelativeToolTip": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Auth\\AuthController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T09:31:07.098Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

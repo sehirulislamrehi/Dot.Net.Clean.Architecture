@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CleanArchitecture.Application/CleanArchitecture.Application.csproj" Id="9980c7a4-83a6-4169-b162-aeb5395eed22" />
+  <Project Path="CleanArchitecture.Domain/CleanArchitecture.Domain.csproj" Id="a273111d-66ee-47f6-bd20-0ec7b29dcdd9" />
+  <Project Path="CleanArchitecture.Infrastructure/CleanArchitecture.Infrastructure.csproj" Id="c5af85eb-62fc-4ae4-9f3f-ab36a3cef0b4" />
+  <Project Path="CleanArchitecture/CleanArchitecture.csproj" />
+</Solution>
