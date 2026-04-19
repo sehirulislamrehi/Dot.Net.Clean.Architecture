@@ -16,6 +16,7 @@ namespace CleanArchitecture.Extensions.Ecommerce
             #endregion Auth End
 
             #region User
+            services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
             #endregion User End
 

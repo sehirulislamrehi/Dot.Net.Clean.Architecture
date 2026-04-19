@@ -64,6 +64,7 @@ namespace CleanArchitecture.Application.Ecommerce.Services.Users
                 {
                     new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
                     new Claim(ClaimTypes.Name, user.Username),
+                    new Claim("FullName", user.FullName),
                     new Claim(ClaimTypes.Email, user.Email),
                 };
 

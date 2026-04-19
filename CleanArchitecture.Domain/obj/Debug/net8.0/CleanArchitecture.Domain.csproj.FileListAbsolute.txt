@@ -9,3 +9,4 @@ E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.sourcelink.json

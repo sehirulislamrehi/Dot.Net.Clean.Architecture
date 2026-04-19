@@ -10,6 +10,6 @@ namespace CleanArchitecture.Domain.Ecommerce.IRepository.Users
 {
     public interface IUserRepository
     {
-        Task<IEnumerable<User>> GetUserData(JsonElement queryParam);
+        Task<IEnumerable<User>> GetUserData(JsonElement? queryParam = null);
     }
 }

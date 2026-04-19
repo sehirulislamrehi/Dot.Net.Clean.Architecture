@@ -1,0 +1,129 @@
+﻿@{
+    Layout = "Layout";
+    ViewData["Title"] = "User Management";
+}
+
+<!-- Content Header (Page header) -->
+<div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2 mt-2">
+            <div class="col-sm-6">
+                <p>User Management</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Main content -->
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <a class="btn btn-primary my-3 float-end"
+                    data-content="/admin/user-module/user/create-user-modal"
+                    data-bs-target="#largeModal"
+                    data-bs-toggle="modal"
+                    style="cursor: pointer;">
+                    <i class="fas fa-plus"></i> Create User
+                </a>
+            </div>
+        </div>
+
+        <!-- Search widget -->
+        <div class="row">
+            <div class="col-12">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body table-responsive">
+                        <div id="example1_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table id="dataGrid" class="table table-bordered table-striped dataTable dtr-inline" style="width: 100%" aria-describedby="example1_info">
+                                        <thead>
+                                            <tr>
+                                                <th>Username</th>
+                                                <th>FullName</th>
+                                                <th>Phone</th>
+                                                <th>Email</th>
+                                                <th>Role</th>
+                                                <th>Created At</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="tbody-user">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(function () {
+            $('#dataGrid').DataTable({
+                processing: true,
+                serverSide: true,
+                pagination: 10,
+                ajax: {
+                    url: "/admin/user-module/user/data",
+                    data: function (data) {
+                        // data.business_unit_id = $('#search_business_unit_id').val();
+                    }
+                },
+                order: [
+                    [0, 'Desc']
+                ],
+                columns: [
+                    {
+                        data: 'username',
+                        name: 'username',
+                        orderable: false,
+                        searchable: true,
+
+                    },
+                    {
+                        data: 'fullName',
+                        name: 'fullName',
+                        orderable: false,
+                        searchable: true,
+
+                    },
+                    {
+                        data: 'phone',
+                        name: 'phone',
+                        orderable: false,
+                        searchable: true,
+                    },
+                    {
+                        data: 'email',
+                        name: 'email',
+                        orderable: false,
+                        searchable: true,
+                    },
+                    {
+                        data: 'roleId',
+                        name: 'roleId',
+                        orderable: false,
+                        searchable: false,
+                    },
+                    {
+                        name: 'createdAt',
+                        data: 'createdAt',
+                        orderable: false,
+                        searchable: false
+                    }
+
+                ]
+            });
+        });
+    </script>
+}

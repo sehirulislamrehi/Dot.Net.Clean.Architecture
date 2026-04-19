@@ -173,6 +173,25 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.ToTable("Role");
                 });
 
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.RolePermission", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("PermissionId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RolePermission");
+                });
+
             modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.User", b =>
                 {
                     b.Property<int>("Id")

@@ -20,18 +20,35 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.Users
             _dbContext = dbContext;
         }
 
-        public async Task<IEnumerable<User>> GetUserData(JsonElement queryParam)
+        public async Task<IEnumerable<User>> GetUserData(JsonElement? queryParam = null)
         {
             var query = _dbContext.User.AsQueryable();
 
-            if (queryParam.TryGetProperty("Username", out var username))
+            if (queryParam.HasValue)
             {
-                query = query.Where(u => u.Username == username.GetString());
-            }
+                var param = queryParam.Value;
 
-            if (queryParam.TryGetProperty("Email", out var email))
-            {
-                query = query.Where(u => u.Email == email.GetString());
+                if (param.TryGetProperty("Username", out var username))
+                {
+                    var usernameValue = username.GetString();
+
+                    if (!string.IsNullOrEmpty(usernameValue))
+                    {
+                        query = query.Where(u =>
+                            u.Username == usernameValue);
+                    }
+                }
+
+                if (param.TryGetProperty("Email", out var email))
+                {
+                    var emailValue = email.GetString();
+
+                    if (!string.IsNullOrEmpty(emailValue))
+                    {
+                        query = query.Where(u =>
+                            u.Email == emailValue);
+                    }
+                }
             }
 
             return query;

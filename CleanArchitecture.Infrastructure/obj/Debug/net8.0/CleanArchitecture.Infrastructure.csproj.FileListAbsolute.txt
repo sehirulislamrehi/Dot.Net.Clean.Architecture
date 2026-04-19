@@ -15,3 +15,4 @@ E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Infrastructure\o
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infrastructure.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.sourcelink.json

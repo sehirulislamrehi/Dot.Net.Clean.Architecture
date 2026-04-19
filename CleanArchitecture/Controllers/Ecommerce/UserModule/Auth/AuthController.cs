@@ -51,7 +51,7 @@ namespace CleanArchitecture.Controllers.Ecommerce.UserModule.Auth
         }
 
         [Authorize]
-        [HttpPost("/auth/logout")]
+        [HttpPost("logout")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {

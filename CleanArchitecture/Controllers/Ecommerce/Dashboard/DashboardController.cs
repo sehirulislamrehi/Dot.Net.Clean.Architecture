@@ -4,11 +4,11 @@ using Microsoft.AspNetCore.Mvc;
 namespace CleanArchitecture.Controllers.Ecommerce.Dashboard
 {
     [Authorize]
-    [Route("[controller]")]
+    [Route("admin/dashboard")]
     public class DashboardController : Controller
     {
 
-        [HttpGet("/Admin/Dashboard")]
+        [HttpGet("")]
         public IActionResult Dashboard()
         {
             return View("~/Views/Ecommerce/Dashboard/Index.cshtml");

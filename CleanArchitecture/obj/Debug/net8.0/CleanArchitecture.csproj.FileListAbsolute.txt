@@ -147,7 +147,6 @@ E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\staticwebassets.development.json
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\swae.build.ex.cache
-E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\CleanArc.68956607.Up2Date
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\CleanArchitecture.dll
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\refint\CleanArchitecture.dll
@@ -155,3 +154,5 @@ E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\CleanArchitecture.genruntimeconfig.cache
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\ref\CleanArchitecture.dll
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\bin\Debug\net8.0\BCrypt.Net-Next.dll
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\CleanArchitecture.sourcelink.json
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -23,6 +23,7 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext
         #region User Module DbSet
         public DbSet<User> User { get; set; }
         public DbSet<Role> Role { get; set; }
+        public DbSet<RolePermission> RolePermission { get; set; }
         #endregion User Module DbSet End
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -37,6 +38,7 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext
             #region User Module DBConfiguration
             modelBuilder.ApplyConfiguration(new UserConfiguration());
             modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            modelBuilder.ApplyConfiguration(new RolePermissionConfiguration());
             #endregion User Module DBConfiguration End
 
             base.OnModelCreating(modelBuilder);

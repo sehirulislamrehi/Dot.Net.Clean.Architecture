@@ -8,6 +8,8 @@ wwwroot\css\adminlte\adminlte.rtl.min.css
 wwwroot\css\adminlte\adminlte.rtl.min.css.map
 wwwroot\css\adminlte\bootstrap-icons.min.css
 wwwroot\css\bootstrap\5.3\bootstrap.min.css
+wwwroot\css\datatable\dataTables.bootstrap4.min.css
+wwwroot\css\datatable\responsive.bootstrap4.min.css
 wwwroot\css\fontawesome\5\fontawesome.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
@@ -49,7 +51,16 @@ wwwroot\js\adminlte\adminlte.js
 wwwroot\js\adminlte\adminlte.js.map
 wwwroot\js\adminlte\adminlte.min.js
 wwwroot\js\adminlte\adminlte.min.js.map
+wwwroot\js\adminlte\custom.js
 wwwroot\js\bootstrap\5.3\bootstrap.bundle.min.js
+wwwroot\js\bootstrap\5.3\bootstrap.min.js
+wwwroot\js\datatable\dataTables.bootstrap4.min.js
+wwwroot\js\datatable\dataTables.responsive.min.js
+wwwroot\js\datatable\jquery.dataTables.min.js
+wwwroot\js\datatable\jquery.validate.js
+wwwroot\js\datatable\responsive.bootstrap4.min.js
+wwwroot\js\jquery\jquery-3.7.1.min.js
+wwwroot\js\popper\popper.min.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
