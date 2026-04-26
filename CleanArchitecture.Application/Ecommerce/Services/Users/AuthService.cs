@@ -4,7 +4,7 @@ using CleanArchitecture.Application.Ecommerce.IServices.Users;
 using CleanArchitecture.Application.Helpers;
 using CleanArchitecture.Domain.Ecommerce.DTOs.Users;
 using CleanArchitecture.Domain.Ecommerce.Entities.Users;
-using CleanArchitecture.Domain.Ecommerce.IRepository.Users;
+using CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Users;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;

@@ -13,13 +13,6 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common
     {
         public async Task SeedAsync(ApplicationEFCoreDbContext context)
         {
-            // Remove all existing data
-            var allModules = await context.Modules.ToListAsync();
-            if (allModules.Count > 0)
-            {
-                context.Modules.RemoveRange(allModules);
-                await context.SaveChangesAsync();
-            }
 
             // Insert modules with fixed IDs
             var modules = new List<Modules>
@@ -42,12 +35,23 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common
                         Key = "users",
                         Icon = "users",
                         Position = 2,
-                        Route = "/users",
+                        Route = null,
                         CreatedAt = DateTime.UtcNow,
                         UpdatedAt = DateTime.UtcNow
                     }
                 };
 
+            await context.Database.ExecuteSqlRawAsync("ALTER TABLE Modules NOCHECK CONSTRAINT ALL;");
+            await context.Database.ExecuteSqlRawAsync("ALTER TABLE Permissions NOCHECK CONSTRAINT ALL;");
+            await context.Database.ExecuteSqlRawAsync("ALTER TABLE RolePermission NOCHECK CONSTRAINT ALL;");
+
+            // Remove all existing data
+            var allModules = await context.Modules.ToListAsync();
+            if (allModules.Count > 0)
+            {
+                context.Modules.RemoveRange(allModules);
+                await context.SaveChangesAsync();
+            }
 
             await context.Modules.AddRangeAsync(modules);
             await context.SaveChangesAsync();

@@ -12,6 +12,7 @@ wwwroot\css\datatable\dataTables.bootstrap4.min.css
 wwwroot\css\datatable\responsive.bootstrap4.min.css
 wwwroot\css\fontawesome\5\fontawesome.css
 wwwroot\css\site.css
+wwwroot\css\toastr\toastr.css
 wwwroot\favicon.ico
 wwwroot\images\AdminLTEFullLogo.png
 wwwroot\images\AdminLTELogo.png
@@ -51,6 +52,7 @@ wwwroot\js\adminlte\adminlte.js
 wwwroot\js\adminlte\adminlte.js.map
 wwwroot\js\adminlte\adminlte.min.js
 wwwroot\js\adminlte\adminlte.min.js.map
+wwwroot\js\adminlte\ajax-form.js
 wwwroot\js\adminlte\custom.js
 wwwroot\js\bootstrap\5.3\bootstrap.bundle.min.js
 wwwroot\js\bootstrap\5.3\bootstrap.min.js
@@ -62,6 +64,7 @@ wwwroot\js\datatable\responsive.bootstrap4.min.js
 wwwroot\js\jquery\jquery-3.7.1.min.js
 wwwroot\js\popper\popper.min.js
 wwwroot\js\site.js
+wwwroot\js\toastr\toastr.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map

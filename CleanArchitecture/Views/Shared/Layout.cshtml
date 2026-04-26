@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="~/css/adminlte/bootstrap-icons.min.css" />
     <link rel="stylesheet" href="~/css/datatable/dataTables.bootstrap4.min.css" />
     <link rel="stylesheet" href="~/css/datatable/responsive.bootstrap4.min.css" />
+    <link rel="stylesheet" href="~/css/toastr/toastr.css" />
     <link rel="stylesheet" href="~/css/adminlte/adminlte.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 
@@ -145,13 +146,18 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
+                                @* <li class="nav-item">
+                                    <a asp-controller="User" asp-action="Index" asp-area="UserModule" class="nav-link">
+                                        <p>Users</p>
+                                    </a>
+                                </li> *@
                                 <li class="nav-item">
-                                    <a asp-controller="User" asp-action="Index" class="nav-link">
+                                    <a href="admin/user-module/user" class="nav-link">
                                         <p>Users</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="" class="nav-link">
+                                    <a href="admin/user-module/role" class="nav-link">
                                         <p>Roles</p>
                                     </a>
                                 </li>
@@ -188,8 +194,11 @@
     <script src="~/js/datatable/dataTables.bootstrap4.min.js"></script>
     <script src="~/js/datatable/dataTables.responsive.min.js"></script>
     <script src="~/js/datatable/responsive.bootstrap4.min.js"></script>
-    <script src="~/js/bootstrap/5.3/bootstrap.min.js"></script>
+    @* <script src="~/js/bootstrap/5.3/bootstrap.min.js"></script> *@
+    <script src="~/js/bootstrap/5.3/bootstrap.bundle.min.js"></script>
     <script src="~/js/adminlte/adminlte.js"></script>
+    <script src="~/js/toastr/toastr.js"></script>
+    <script src="~/js/adminlte/ajax-form.js"></script>
     <script src="~/js/adminlte/custom.js"></script>
     <script>
         // const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';

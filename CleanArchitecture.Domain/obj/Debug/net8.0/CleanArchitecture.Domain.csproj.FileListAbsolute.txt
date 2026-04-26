@@ -5,8 +5,8 @@ E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfoInputs.cache
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.AssemblyInfo.cs
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.csproj.CoreCompileInputs.cache
+E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.sourcelink.json
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.dll
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\refint\CleanArchitecture.Domain.dll
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.pdb
 E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\ref\CleanArchitecture.Domain.dll
-E:\PRAN-RFL\practise\cSharp\CleanArchitecture\CleanArchitecture.Domain\obj\Debug\net8.0\CleanArchitecture.Domain.sourcelink.json

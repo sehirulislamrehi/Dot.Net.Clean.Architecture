@@ -18,6 +18,7 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecomme
 
             builder.Property(u => u.Username)
                 .IsRequired()
+                .IsUnicode()
                 .HasMaxLength(50);
 
             builder.HasIndex(u => u.Username)

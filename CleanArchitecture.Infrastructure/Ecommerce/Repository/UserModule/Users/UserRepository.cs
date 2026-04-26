@@ -1,15 +1,11 @@
 ﻿using CleanArchitecture.Domain.Ecommerce.Entities.Users;
-using CleanArchitecture.Domain.Ecommerce.IRepository.Users;
+using CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Users;
 using CleanArchitecture.Infrastructure.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using Microsoft.IdentityModel.Tokens;
 using System.Text.Json;
-using System.Threading.Tasks;
 
-namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.Users
+namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Users
 {
     public class UserRepository : IUserRepository
     {
@@ -22,7 +18,9 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.Users
 
         public async Task<IEnumerable<User>> GetUserData(JsonElement? queryParam = null)
         {
-            var query = _dbContext.User.AsQueryable();
+            var query = _dbContext.User
+                .Include(u => u.Role)
+                .AsQueryable();
 
             if (queryParam.HasValue)
             {
@@ -49,10 +47,30 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.Users
                             u.Email == emailValue);
                     }
                 }
+
+                if (param.TryGetProperty("Id", out var id))
+                {
+                    var idValue = id.GetInt32();
+                        query = query.Where(u => u.Id == idValue);
+                }
+                if (param.TryGetProperty("IdNotEqual", out var idNotEqual))
+                {
+                    var idValue = idNotEqual.GetInt32();
+                    query = query.Where(u => u.Id != idValue);
+                }
             }
 
-            return query;
+            return query.OrderByDescending(u => u.Id);
+        }
 
+        public async Task<User> SaveUser(User user)
+        {
+            if(user.Id == 0)
+            {
+                await _dbContext.User.AddAsync(user);
+            }
+            await _dbContext.SaveChangesAsync();
+            return user;
         }
 
     }

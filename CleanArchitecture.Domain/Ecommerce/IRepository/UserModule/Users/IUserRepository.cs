@@ -6,10 +6,11 @@ using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace CleanArchitecture.Domain.Ecommerce.IRepository.Users
+namespace CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Users
 {
     public interface IUserRepository
     {
         Task<IEnumerable<User>> GetUserData(JsonElement? queryParam = null);
+        Task<User> SaveUser(User user);
     }
 }

@@ -16,22 +16,32 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Users
         public async Task SeedAsync(ApplicationEFCoreDbContext context)
         {
 
-            var users = new List<User>();
-            var user = new User
+            var hashedPassword = BCrypt.Net.BCrypt.HashPassword("123456");
+            var existsUsers = await context.User.FirstOrDefaultAsync(u => u.IsSuperAdmin == true);
+
+            if (existsUsers == null)
             {
-                Username = "376395",
-                FullName = "MD Sehirul Islam Rehi",
-                Email = "mdsehirulislamrehi@gmail.com",
-                Phone = "01858361812",
-                RoleId = null,
-                Password = BCrypt.Net.BCrypt.HashPassword("123456"),
-                CreatedAt = DateTime.UtcNow,
-                UpdatedAt = DateTime.UtcNow
-            };
+                var user = new User
+                {
+                    Username = "376395",
+                    FullName = "MD Sehirul Islam Rehi",
+                    Email = "mdsehirulislamrehi@gmail.com",
+                    Phone = "01858361812",
+                    RoleId = null,
+                    Password = BCrypt.Net.BCrypt.HashPassword("123456"),
+                    CreatedAt = DateTime.UtcNow,
+                    UpdatedAt = DateTime.UtcNow,
+                    IsSuperAdmin = true
+                };
 
-            users.Add(user);
+                await context.AddAsync(user);
+            }
+            else
+            {
+                existsUsers.Password = hashedPassword;
+                context.User.Update(existsUsers);
+            }
 
-            await context.User.AddRangeAsync(users);
             await context.SaveChangesAsync();
         }
     }

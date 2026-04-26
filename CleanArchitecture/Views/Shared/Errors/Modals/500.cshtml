@@ -1,0 +1,68 @@
+﻿<style>
+    .modal-body {
+        background: #f8f9fa;
+        padding: 2rem;
+        border-radius: 10px;
+        text-align: center;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 20px;
+        font-size: 1.5rem;
+        color: #333;
+        opacity: 0.7;
+    }
+
+        .close:hover {
+            color: #000;
+            opacity: 1;
+        }
+
+    .error-header {
+        font-size: 6rem;
+        font-weight: bold;
+        color: #dc3545;
+        margin: 0;
+    }
+
+    .error-subtext {
+        font-size: 1.25rem;
+        color: #6c757d;
+        margin-top: 0.5rem;
+    }
+
+    .version {
+        font-size: 0.9rem;
+        color: #adb5bd;
+    }
+
+    .btn-close-modal {
+        background-color: #6c757d;
+        color: #fff;
+        border-radius: 5px;
+        padding: 0.5rem 1.5rem;
+        font-size: 1rem;
+        border: none;
+        transition: 0.3s;
+    }
+
+        .btn-close-modal:hover {
+            background-color: #5a6268;
+        }
+</style>
+
+<div class="modal-body">
+    <h3>CRM <span class="version"></span></h3>
+
+    <div class="my-5">
+        <h1 class="error-header">500</h1>
+        <p class="error-subtext">@(ViewBag.Message ?? "Internal server error")</p>
+    </div>
+
+    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+        Close
+    </button>
+</div>

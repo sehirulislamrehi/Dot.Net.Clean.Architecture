@@ -1,5 +1,6 @@
 using CleanArchitecture.DependencyContainers;
 using CleanArchitecture.Infrastructure.DatabaseContext;
+using CleanArchitecture.Infrastructure.Seeders;
 using CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common;
 using CleanArchitecture.Infrastructure.Seeders.Ecommerce.Users;
 using Microsoft.AspNetCore.Authentication.Cookies;
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 
 // Add services
 builder.Services.AddRazorPages();
+builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDbContext<ApplicationEFCoreDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -19,10 +21,8 @@ builder.Services.AddDbContext<ApplicationEFCoreDbContext>(options =>
 builder.Services.AddEcommerceServices();
 #endregion Dependency Resolve
 
-
 #region DB Seeder Registrations
-builder.Services.AddScoped<ISeeder, ModuleSeeder>();
-builder.Services.AddScoped<ISeeder, UserSeeder>();
+builder.Services.AddDatabaseSeeders();
 #endregion DB Seeder Registrations
 
 #region Authentication Part

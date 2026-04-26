@@ -7,6 +7,7 @@ namespace CleanArchitecture.DependencyContainers
         public static IServiceCollection AddEcommerceServices(this IServiceCollection services)
         {
             services.AddUserModuleServices();
+            services.AddCommonModuleServices();
             return services;
         }
     }
