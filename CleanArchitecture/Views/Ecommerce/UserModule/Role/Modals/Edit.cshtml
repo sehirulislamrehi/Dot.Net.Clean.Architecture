@@ -10,7 +10,7 @@
 </div>
 
 <div class="modal-body">
-    <form class="ajax-form" action="@Url.Action("CreateRole", "Role", new { area = "UserModule" })" method="POST">
+    <form class="ajax-form" action="@Url.Action("EditRole", "Role", new { area = "UserModule", id = Model.Role.Id })" method="POST">
         @Html.AntiForgeryToken()
         <div class="row">
 
@@ -24,8 +24,8 @@
             <div class="col-md-12 form-group">
                 <label>Status</label>
                 <select class="form-control" name="isActive">
-                    <option value="1">Active</option>
-                    <option value="0">In Active</option>
+                    <option value="1" @(Model.Role.IsActive ? "selected" : "") >Active</option>
+                    <option value="0" @(!Model.Role.IsActive ? "selected" : "") >In Active</option>
                 </select>
             </div>
 

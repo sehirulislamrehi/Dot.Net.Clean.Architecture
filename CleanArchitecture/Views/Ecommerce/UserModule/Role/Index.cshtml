@@ -144,10 +144,12 @@
                         data: 'name',
                         name: 'name',
                         orderable: false,
-                        searchable: false,
+                        searchable: true,
                     },
                     {
                         data: 'status',
+                        orderable: false,
+                        searchable: false,
                         render: function (data, type, row) {
 
                             if(row.isActive == true){
@@ -160,6 +162,8 @@
                     },
                     {
                         data: 'action',
+                        orderable: false,
+                        searchable: false,
                         render: function (data, type, row) {
                             let editModalURL = '@Url.Action("EditRoleModal", "Role", new { area = "UserModule", id = "__id__" })';
                             editModalURL = editModalURL.replace('__id__', row.id);

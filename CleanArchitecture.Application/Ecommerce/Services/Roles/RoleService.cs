@@ -29,7 +29,15 @@ namespace CleanArchitecture.Application.Ecommerce.Services.Roles
 
         public async Task<DatatableResponse<IEnumerable<Role>>> GetRoleData(DataTableRequest request)
         {
-            var query = await _roleRepository.GetAllRole();
+            var obj = new
+            {
+                Name = request.Search ?? ""
+            };
+
+            var json = JsonSerializer.Serialize(obj);
+            var queryParam = JsonSerializer.Deserialize<JsonElement>(json);
+
+            var query = await _roleRepository.GetAllRole(queryParam);
             var total = query.Count();
             var data = query
                 .Skip(request.Start)
@@ -133,6 +141,32 @@ namespace CleanArchitecture.Application.Ecommerce.Services.Roles
                 HttpCode = 200,
                 Message = "Response ok",
                 Values = datas
+            };
+        }
+
+        public async Task<ApiResponse<Role>> EditRole(CreateRoleRequest request, int id)
+        {
+            var role = await _roleRepository.GetRoleById(id);
+            if (role == null)
+            {
+                return new ApiResponse<Role>
+                {
+                    Status = false,
+                    HttpCode = 200,
+                    Message = "No role found"
+                };
+            }
+
+            role.Name = request.Name;
+            role.IsActive = request.IsActive == 1 ? true : false;
+
+            var result = await _roleRepository.EditRole(role, request.PermissionIds);
+
+            return new ApiResponse<Role>
+            {
+                Status = true,
+                HttpCode = 200,
+                Message = $"{role.Name} role updated"
             };
         }
     }

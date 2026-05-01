@@ -31,7 +31,8 @@ namespace CleanArchitecture.Controllers.Ecommerce.UserModule.Role
             {
                 Draw = Convert.ToInt32(Request.Query["draw"]),
                 Start = Convert.ToInt32(Request.Query["start"]),
-                Length = Convert.ToInt32(Request.Query["length"])
+                Length = Convert.ToInt32(Request.Query["length"]),
+                Search = Request.Query["search[value]"]
             };
             var result = await _roleService.GetRoleData(request);
             return Ok(result);
@@ -82,6 +83,31 @@ namespace CleanArchitecture.Controllers.Ecommerce.UserModule.Role
                 ViewBag.Message = response.Message;
                 return View("~/Views/Shared/Errors/Modals/404.cshtml", response.Message);
             }
+        }
+
+
+        [HttpPost("edit-role")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> EditRole(CreateRoleRequest request, int id)
+        {
+            if (!ModelState.IsValid)
+            {
+                var errors = ModelState
+                    .Where(x => x.Value.Errors.Count > 0)
+                    .ToDictionary(
+                        k => k.Key,
+                        v => v.Value.Errors.Select(e => e.ErrorMessage).ToArray()
+                    );
+
+                return StatusCode(422, new
+                {
+                    message = "Validation failed",
+                    data = errors
+                });
+            }
+
+            var result = await _roleService.EditRole(request, id);
+            return Ok(result);
         }
     }
 }

@@ -13,5 +13,6 @@ namespace CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Roles
         Task<IEnumerable<Role>> GetAllRole(JsonElement? queryParam = null);
         Task<Role?> GetRoleById(int id);
         Task<Role> CreateRole(Role role);
+        Task<Role> EditRole(Role role, List<int> permissionIDs);
     }
 }

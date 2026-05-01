@@ -12,6 +12,8 @@ namespace CleanArchitecture.Application.Ecommerce.DTOs.Ecommerce.UserModule.Role
         [Required(ErrorMessage = "Role name is required")]
         public string Name { get; set; }
 
+        public int IsActive { get; set; } = 1;  
+
         [MinLength(1, ErrorMessage = "At least one permission must be selected")]
         public List<int> PermissionIds { get; set; } = new();
     }

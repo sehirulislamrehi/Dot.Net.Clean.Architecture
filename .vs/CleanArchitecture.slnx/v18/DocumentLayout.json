@@ -3,32 +3,44 @@
   "WorkspaceRootPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.infrastructure\\ecommerce\\repository\\usermodule\\roles\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\ecommerce\\repository\\usermodule\\roles\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.application\\ecommerce\\services\\roles\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\ecommerce\\services\\roles\\roleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\controllers\\ecommerce\\usermodule\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\controllers\\ecommerce\\usermodule\\role\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.application\\helpers\\datatablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\helpers\\datatablerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.application\\ecommerce\\iservices\\roles\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\ecommerce\\iservices\\roles\\iroleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\views\\ecommerce\\usermodule\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\views\\ecommerce\\usermodule\\role\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\views\\ecommerce\\usermodule\\role\\modals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\views\\ecommerce\\usermodule\\role\\modals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\permissionseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\permissionseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.application\\ecommerce\\dtos\\ecommerce\\usermodule\\role\\createrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9980C7A4-83A6-4169-B162-AEB5395EED22}|CleanArchitecture.Application\\CleanArchitecture.Application.csproj|solutionrelative:cleanarchitecture.application\\ecommerce\\dtos\\ecommerce\\usermodule\\role\\createrolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\submoduleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\submoduleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.domain\\ecommerce\\irepository\\usermodule\\roles\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\ecommerce\\irepository\\usermodule\\roles\\irolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\moduleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5AF85EB-62FC-4AE4-9F3F-AB36A3CEF0B4}|CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj|solutionrelative:cleanarchitecture.infrastructure\\seeders\\ecommerce\\common\\moduleseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture.domain\\ecommerce\\entities\\users\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A273111D-66EE-47F6-BD20-0EC7B29DCDD9}|CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj|solutionrelative:cleanarchitecture.domain\\ecommerce\\entities\\users\\rolepermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|e:\\works\\projects\\dot.net.clean.architecture\\cleanarchitecture\\controllers\\ecommerce\\usermodule\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1638A40C-F1C6-E0B5-1E0B-0514E18774C5}|CleanArchitecture\\CleanArchitecture.csproj|solutionrelative:cleanarchitecture\\controllers\\ecommerce\\usermodule\\user\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +50,141 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Modals\\Edit.cshtml",
               "RelativeDocumentMoniker": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Modals\\Edit.cshtml",
               "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Modals\\Edit.cshtml",
               "RelativeToolTip": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Modals\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-01T05:08:03.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PermissionSeeder.cs",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\PermissionSeeder.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\PermissionSeeder.cs",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\PermissionSeeder.cs",
-              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\PermissionSeeder.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T05:07:12.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SubModuleSeeder.cs",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\SubModuleSeeder.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\SubModuleSeeder.cs",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\SubModuleSeeder.cs",
-              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\SubModuleSeeder.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwDEAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T05:07:02.853Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ModuleSeeder.cs",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\ModuleSeeder.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\ModuleSeeder.cs",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\ModuleSeeder.cs",
-              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Seeders\\Ecommerce\\Common\\ModuleSeeder.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T05:06:40.025Z",
+              "WhenOpened": "2026-05-01T16:50:40.107Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Program.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture\\Program.cs",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Program.cs",
-              "RelativeToolTip": "CleanArchitecture\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "IRoleService.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\IServices\\Roles\\IRoleService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Ecommerce\\IServices\\Roles\\IRoleService.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\IServices\\Roles\\IRoleService.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Ecommerce\\IServices\\Roles\\IRoleService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBMAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T05:06:06.145Z",
+              "WhenOpened": "2026-05-01T16:59:01.684Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RoleService.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\Services\\Roles\\RoleService.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Ecommerce\\Services\\Roles\\RoleService.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\Services\\Roles\\RoleService.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Ecommerce\\Services\\Roles\\RoleService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T16:59:26.885Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRoleRepository.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\Ecommerce\\IRepository\\UserModule\\Roles\\IRoleRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Ecommerce\\IRepository\\UserModule\\Roles\\IRoleRepository.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\Ecommerce\\IRepository\\UserModule\\Roles\\IRoleRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Domain\\Ecommerce\\IRepository\\UserModule\\Roles\\IRoleRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:01:04.937Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RoleRepository.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Ecommerce\\Repository\\UserModule\\Roles\\RoleRepository.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Infrastructure\\Ecommerce\\Repository\\UserModule\\Roles\\RoleRepository.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\Ecommerce\\Repository\\UserModule\\Roles\\RoleRepository.cs",
+              "RelativeToolTip": "CleanArchitecture.Infrastructure\\Ecommerce\\Repository\\UserModule\\Roles\\RoleRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAtwCQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:01:17.488Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataTableRequest.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Helpers\\DataTableRequest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Helpers\\DataTableRequest.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Helpers\\DataTableRequest.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Helpers\\DataTableRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:12:11.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "RolePermission.cs",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\RolePermission.cs",
-              "RelativeDocumentMoniker": "CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\RolePermission.cs",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\RolePermission.cs",
-              "RelativeToolTip": "CleanArchitecture.Domain\\Ecommerce\\Entities\\Users\\RolePermission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-01T05:05:42.819Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Index.cshtml",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Index.cshtml",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Index.cshtml",
+              "RelativeToolTip": "CleanArchitecture\\Views\\Ecommerce\\UserModule\\Role\\Index.cshtml",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-01T17:10:23.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Readme.txt",
-              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Readme.txt",
-              "RelativeDocumentMoniker": "CleanArchitecture\\Readme.txt",
-              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Readme.txt",
-              "RelativeToolTip": "CleanArchitecture\\Readme.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAACeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-05-01T05:03:01.668Z",
+              "DocumentIndex": 7,
+              "Title": "CreateRoleRequest.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\DTOs\\Ecommerce\\UserModule\\Role\\CreateRoleRequest.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture.Application\\Ecommerce\\DTOs\\Ecommerce\\UserModule\\Role\\CreateRoleRequest.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\Ecommerce\\DTOs\\Ecommerce\\UserModule\\Role\\CreateRoleRequest.cs",
+              "RelativeToolTip": "CleanArchitecture.Application\\Ecommerce\\DTOs\\Ecommerce\\UserModule\\Role\\CreateRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T17:07:02.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\User\\UserController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\User\\UserController.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\User\\UserController.cs",
+              "RelativeToolTip": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\User\\UserController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T16:54:54.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoleController.cs",
+              "DocumentMoniker": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Role\\RoleController.cs",
+              "RelativeDocumentMoniker": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Role\\RoleController.cs",
+              "ToolTip": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Role\\RoleController.cs",
+              "RelativeToolTip": "CleanArchitecture\\Controllers\\Ecommerce\\UserModule\\Role\\RoleController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAwwCQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-01T16:50:50.527Z",
               "EditorCaption": ""
             }
           ]

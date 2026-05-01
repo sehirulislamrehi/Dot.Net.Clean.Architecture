@@ -1,4 +1,5 @@
-﻿using CleanArchitecture.Domain.Ecommerce.Entities.Users;
+﻿using Azure.Core;
+using CleanArchitecture.Domain.Ecommerce.Entities.Users;
 using CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Roles;
 using CleanArchitecture.Infrastructure.DatabaseContext;
 using Microsoft.EntityFrameworkCore;
@@ -33,7 +34,7 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Roles
                     var nameValue = name.GetString();
                     if (!string.IsNullOrEmpty(nameValue))
                     {
-                        query = query.Where(u => u.Name == nameValue);
+                        query = query.Where(u => u.Name.Contains(nameValue));
                     }
                 }
             }
@@ -53,6 +54,23 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Roles
         public async Task<Role> CreateRole(Role role)
         {
             _dbContext.Roles.Add(role);
+            await _dbContext.SaveChangesAsync();
+            return role;
+        }
+
+        public async Task<Role> EditRole(Role role, List<int> permissionIDs)
+        {
+
+            /* remove all existing role permission */
+            _dbContext.RolePermissions.RemoveRange(role.RolePermissions);
+
+            role.RolePermissions = permissionIDs.Select(id => new RolePermission
+            {
+                RoleId = role.Id,
+                PermissionId = id
+            }).ToList();
+
+            _dbContext.Roles.Update(role);
             await _dbContext.SaveChangesAsync();
             return role;
         }

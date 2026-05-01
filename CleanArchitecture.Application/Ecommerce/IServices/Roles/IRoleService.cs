@@ -17,5 +17,7 @@ namespace CleanArchitecture.Application.Ecommerce.IServices.Roles
         Task<ApiResponse<CreateRoleViewModel>> HandleCreateRoleModalLogic();
         Task<ApiResponse<Role>> CreateRole(CreateRoleRequest request);
         Task<ApiResponse<EditRoleViewModel>> HandleEditRoleModalLogic(int id);
+        Task<ApiResponse<Role>> EditRole(CreateRoleRequest request, int id);
+
     }
 }
