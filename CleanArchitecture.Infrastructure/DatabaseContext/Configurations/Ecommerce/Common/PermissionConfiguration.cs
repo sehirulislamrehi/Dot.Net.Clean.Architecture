@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecommerce.Common
 {
-    public class PermissionConfiguration : IEntityTypeConfiguration<Permissions>
+    public class PermissionConfiguration : IEntityTypeConfiguration<Permission>
     {
-        public void Configure(EntityTypeBuilder<Permissions> builder)
+        public void Configure(EntityTypeBuilder<Permission> builder)
         {
             // Table name
             builder.ToTable("Permissions");

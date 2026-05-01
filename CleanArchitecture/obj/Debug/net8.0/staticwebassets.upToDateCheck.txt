@@ -40,6 +40,7 @@ wwwroot\images\prod-2.jpg
 wwwroot\images\prod-3.jpg
 wwwroot\images\prod-4.jpg
 wwwroot\images\prod-5.jpg
+wwwroot\images\spinner.svg
 wwwroot\images\user1-128x128.jpg
 wwwroot\images\user2-160x160.jpg
 wwwroot\images\user3-128x128.jpg

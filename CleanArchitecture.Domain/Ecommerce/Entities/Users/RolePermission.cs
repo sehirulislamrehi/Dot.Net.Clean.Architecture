@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CleanArchitecture.Domain.Ecommerce.Entities.Common;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,5 +12,8 @@ namespace CleanArchitecture.Domain.Ecommerce.Entities.Users
         public int Id { get; set; } 
         public int RoleId { get; set; }
         public int PermissionId { get; set; }
+
+        public Role Role { get; set; }
+        public Permission Permission { get; set; }
     }
 }

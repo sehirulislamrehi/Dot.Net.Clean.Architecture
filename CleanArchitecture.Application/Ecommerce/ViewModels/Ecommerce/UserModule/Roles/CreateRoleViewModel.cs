@@ -9,6 +9,6 @@ namespace CleanArchitecture.Application.Ecommerce.ViewModels.Ecommerce.UserModul
 {
     public class CreateRoleViewModel
     {
-        public List<Modules> Modules { get; set; }
+        public List<Module> Modules { get; set; }
     }
 }

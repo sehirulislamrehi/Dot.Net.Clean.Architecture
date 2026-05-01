@@ -15,20 +15,20 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common
         {
 
             // Insert modules with fixed IDs
-            var modules = new List<Modules>
+            var modules = new List<Module>
                 {
-                    new Modules
-                    {
-                        Id = 1,
-                        Name = "Dashboard",
-                        Key = "dashboard",
-                        Icon = "dashboard",
-                        Position = 1,
-                        Route = "/dashboard",
-                        CreatedAt = DateTime.UtcNow,
-                        UpdatedAt = DateTime.UtcNow
-                    },
-                    new Modules
+                    //new Modules
+                    //{
+                    //    Id = 1,
+                    //    Name = "Dashboard",
+                    //    Key = "dashboard",
+                    //    Icon = "dashboard",
+                    //    Position = 1,
+                    //    Route = "/dashboard",
+                    //    CreatedAt = DateTime.UtcNow,
+                    //    UpdatedAt = DateTime.UtcNow
+                    //},
+                    new Module
                     {
                         Id = 2,
                         Name = "Users",
@@ -43,7 +43,7 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common
 
             await context.Database.ExecuteSqlRawAsync("ALTER TABLE Modules NOCHECK CONSTRAINT ALL;");
             await context.Database.ExecuteSqlRawAsync("ALTER TABLE Permissions NOCHECK CONSTRAINT ALL;");
-            await context.Database.ExecuteSqlRawAsync("ALTER TABLE RolePermission NOCHECK CONSTRAINT ALL;");
+            await context.Database.ExecuteSqlRawAsync("ALTER TABLE RolePermissions NOCHECK CONSTRAINT ALL;");
 
             // Remove all existing data
             var allModules = await context.Modules.ToListAsync();

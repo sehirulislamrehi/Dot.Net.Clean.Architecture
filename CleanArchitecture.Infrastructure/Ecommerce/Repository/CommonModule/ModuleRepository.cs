@@ -19,11 +19,21 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.CommonModule
         {
             _dbContext = dbContext;
         }
-        public async Task<IEnumerable<Modules>> GetModules()
+        public async Task<IEnumerable<Module>> GetModules()
         {
             var query = _dbContext.Modules
                 .Include(query => query.SubModules)
-                .Include(query => query.Permissions)
+                .Select(query => new Module { 
+                    Id = query.Id,
+                    Name = query.Name,
+                    Key = query.Key,
+                    Icon = query.Icon,
+                    Position = query.Position,
+                    Route = query.Route,
+                    CreatedAt = query.CreatedAt,
+                    Permissions = query.Permissions.OrderBy(permission => permission.Position).ToList(),
+                })
+                .OrderByDescending(query => query.Id)
                 .AsQueryable();
             return query.OrderByDescending(u => u.Id);
         }

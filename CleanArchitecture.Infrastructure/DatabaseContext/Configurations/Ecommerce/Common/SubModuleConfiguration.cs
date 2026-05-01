@@ -7,9 +7,9 @@ using System.Text;
 
 namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecommerce.Common
 {
-    public class SubModuleConfiguration : IEntityTypeConfiguration<SubModules>
+    public class SubModuleConfiguration : IEntityTypeConfiguration<SubModule>
     {
-        public void Configure(EntityTypeBuilder<SubModules> builder)
+        public void Configure(EntityTypeBuilder<SubModule> builder)
         {
             // Table name
             builder.ToTable("SubModules");

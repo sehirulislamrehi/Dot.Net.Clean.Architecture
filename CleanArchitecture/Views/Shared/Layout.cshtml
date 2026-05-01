@@ -52,6 +52,14 @@
         </div>
     </div>
 
+    <div id="loading-indicator" class="loader">
+        <div class="d-flex flex-column justify-content-center align-items-center loader-box">
+            <div>
+                <img src="~/images/spinner.svg" style="width: 200px" alt="Loading Spinner">
+            </div>
+        </div>
+    </div>
+
     <div class="app-wrapper">
 
         <!--begin::Header-->
@@ -152,12 +160,12 @@
                                     </a>
                                 </li> *@
                                 <li class="nav-item">
-                                    <a href="admin/user-module/user" class="nav-link">
+                                    <a href="/admin/user-module/user" class="nav-link">
                                         <p>Users</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="admin/user-module/role" class="nav-link">
+                                    <a href="/admin/user-module/role" class="nav-link">
                                         <p>Roles</p>
                                     </a>
                                 </li>
@@ -187,39 +195,17 @@
 
     </div>
     
-    <!--end::App Wrapper-->
     <!--begin::Script-->
     <script src="~/js/jquery/jquery-3.7.1.min.js"></script>
     <script src="~/js/datatable/jquery.dataTables.min.js"></script>
     <script src="~/js/datatable/dataTables.bootstrap4.min.js"></script>
     <script src="~/js/datatable/dataTables.responsive.min.js"></script>
     <script src="~/js/datatable/responsive.bootstrap4.min.js"></script>
-    @* <script src="~/js/bootstrap/5.3/bootstrap.min.js"></script> *@
     <script src="~/js/bootstrap/5.3/bootstrap.bundle.min.js"></script>
     <script src="~/js/adminlte/adminlte.js"></script>
     <script src="~/js/toastr/toastr.js"></script>
     <script src="~/js/adminlte/ajax-form.js"></script>
     <script src="~/js/adminlte/custom.js"></script>
-    <script>
-        // const SELECTOR_SIDEBAR_WRAPPER = '.sidebar-wrapper';
-        // const Default = {
-        //     scrollbarTheme: 'os-theme-light',
-        //     scrollbarAutoHide: 'leave',
-        //     scrollbarClickScroll: true,
-        // };
-        // document.addEventListener('DOMContentLoaded', function() {
-        //     const sidebarWrapper = document.querySelector(SELECTOR_SIDEBAR_WRAPPER);
-        //     if (sidebarWrapper && typeof OverlayScrollbarsGlobal?.OverlayScrollbars !== 'undefined') {
-        //         OverlayScrollbarsGlobal.OverlayScrollbars(sidebarWrapper, {
-        //             scrollbars: {
-        //                 theme: Default.scrollbarTheme,
-        //                 autoHide: Default.scrollbarAutoHide,
-        //                 clickScroll: Default.scrollbarClickScroll,
-        //             },
-        //         });
-        //     }
-        // });
-    </script>
 
     @RenderSection("Scripts", required: false)
 

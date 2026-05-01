@@ -11,5 +11,7 @@ namespace CleanArchitecture.Domain.Ecommerce.IRepository.UserModule.Roles
     public interface IRoleRepository
     {
         Task<IEnumerable<Role>> GetAllRole(JsonElement? queryParam = null);
+        Task<Role?> GetRoleById(int id);
+        Task<Role> CreateRole(Role role);
     }
 }

@@ -7,7 +7,7 @@
 
     $(document).on("submit", ".ajax-form", function (e) {
         e.preventDefault();
-        $(".loader-wrapper").show();
+        $(".loader").show();
 
         let $this = $(this);
         let formData = new FormData(this);
@@ -50,7 +50,7 @@
 });
 
 function successResponseProcess(response) {
-    $(".loader-wrapper").hide();
+    $(".loader").hide();
     if (response.status) {
         toastr.success(response.message);
     }
@@ -70,17 +70,17 @@ function successResponseProcess(response) {
     }
     else {
         let table = $("#dataGrid").DataTable();
-        console.dir(table)
         table.ajax.reload(null, true);
     }
 }
 
 function errorResponseProcess(response) {
-    $(".loader-wrapper").hide();
+    $(".loader").hide();
     let data = response.responseJSON || JSON.parse(response.responseText);
 
     if (data && data.data && Object.keys(data.data).length > 0) {
         $.each(data.data, (key, value) => {
+            toastr.error(value[0]);
 
             $("[name^=" + key.toLowerCase() + "]")
                 .parent()

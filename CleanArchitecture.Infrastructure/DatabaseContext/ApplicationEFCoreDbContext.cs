@@ -15,15 +15,15 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext
         public ApplicationEFCoreDbContext(DbContextOptions<ApplicationEFCoreDbContext> options) : base(options) { }
 
         #region Common Module DbSet
-        public DbSet<Modules> Modules { get; set; }
-        public DbSet<SubModules> SubModules { get; set; }
-        public DbSet<Permissions> Permissions { get; set; }
+        public DbSet<Domain.Ecommerce.Entities.Common.Module> Modules { get; set; }
+        public DbSet<SubModule> SubModules { get; set; }
+        public DbSet<Permission> Permissions { get; set; }
         #endregion Common Module DbSet End
 
         #region User Module DbSet
-        public DbSet<User> User { get; set; }
-        public DbSet<Role> Role { get; set; }
-        public DbSet<RolePermission> RolePermission { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Role> Roles { get; set; }
+        public DbSet<RolePermission> RolePermissions { get; set; }
         #endregion User Module DbSet End
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

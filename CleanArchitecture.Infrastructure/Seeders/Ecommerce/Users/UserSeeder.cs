@@ -17,7 +17,7 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Users
         {
 
             var hashedPassword = BCrypt.Net.BCrypt.HashPassword("123456");
-            var existsUsers = await context.User.FirstOrDefaultAsync(u => u.IsSuperAdmin == true);
+            var existsUsers = await context.Users.FirstOrDefaultAsync(u => u.IsSuperAdmin == true);
 
             if (existsUsers == null)
             {
@@ -39,7 +39,7 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Users
             else
             {
                 existsUsers.Password = hashedPassword;
-                context.User.Update(existsUsers);
+                context.Users.Update(existsUsers);
             }
 
             await context.SaveChangesAsync();

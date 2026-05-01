@@ -16,7 +16,6 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace CleanArchitecture.Application.Ecommerce.Services.Users
 {

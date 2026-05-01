@@ -9,6 +9,6 @@ namespace CleanArchitecture.Domain.Ecommerce.IRepository.CommonModule
 {
     public interface IModuleRepository
     {
-        Task<IEnumerable<Modules>> GetModules();
+        Task<IEnumerable<Module>> GetModules();
     }
 }

@@ -22,7 +22,7 @@ namespace CleanArchitecture.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Modules", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Module", b =>
                 {
                     b.Property<int>("Id")
                         .HasColumnType("int");
@@ -63,7 +63,7 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.ToTable("Modules");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Permissions", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Permission", b =>
                 {
                     b.Property<int>("Id")
                         .HasColumnType("int");
@@ -99,7 +99,7 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.ToTable("Permissions", (string)null);
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.SubModules", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.SubModule", b =>
                 {
                     b.Property<int>("Id")
                         .HasColumnType("int");
@@ -170,7 +170,10 @@ namespace CleanArchitecture.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Role");
+                    b.HasIndex("Name")
+                        .IsUnique();
+
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.RolePermission", b =>
@@ -189,7 +192,11 @@ namespace CleanArchitecture.Infrastructure.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RolePermission");
+                    b.HasIndex("PermissionId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("RolePermissions");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.User", b =>
@@ -249,12 +256,12 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.HasIndex("Username")
                         .IsUnique();
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Permissions", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Permission", b =>
                 {
-                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Common.Modules", "Module")
+                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Common.Module", "Module")
                         .WithMany("Permissions")
                         .HasForeignKey("ModuleId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -263,15 +270,34 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.Navigation("Module");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.SubModules", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.SubModule", b =>
                 {
-                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Common.Modules", "Module")
+                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Common.Module", "Module")
                         .WithMany("SubModules")
                         .HasForeignKey("ModuleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Module");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.RolePermission", b =>
+                {
+                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Common.Permission", "Permission")
+                        .WithMany()
+                        .HasForeignKey("PermissionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("CleanArchitecture.Domain.Ecommerce.Entities.Users.Role", "Role")
+                        .WithMany("RolePermissions")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("Permission");
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.User", b =>
@@ -284,11 +310,16 @@ namespace CleanArchitecture.Infrastructure.Migrations
                     b.Navigation("Role");
                 });
 
-            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Modules", b =>
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Common.Module", b =>
                 {
                     b.Navigation("Permissions");
 
                     b.Navigation("SubModules");
+                });
+
+            modelBuilder.Entity("CleanArchitecture.Domain.Ecommerce.Entities.Users.Role", b =>
+                {
+                    b.Navigation("RolePermissions");
                 });
 #pragma warning restore 612, 618
         }

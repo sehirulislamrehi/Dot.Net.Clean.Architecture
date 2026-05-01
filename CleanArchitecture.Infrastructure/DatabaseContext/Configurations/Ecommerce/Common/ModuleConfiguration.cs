@@ -7,10 +7,10 @@ using System.Text;
 
 namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecommerce.Common
 {
-    public class ModuleConfiguration : IEntityTypeConfiguration<Modules>
+    public class ModuleConfiguration : IEntityTypeConfiguration<Module>
     {
 
-        public void Configure(EntityTypeBuilder<Modules> builder)
+        public void Configure(EntityTypeBuilder<Module> builder)
         {
             builder.HasKey(m => m.Id);
             builder.Property(m => m.Id).ValueGeneratedNever();

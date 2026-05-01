@@ -1,0 +1,100 @@
+﻿@using CleanArchitecture.Application.Ecommerce.ViewModels.Ecommerce.UserModule.Roles
+@model EditRoleViewModel
+
+<div class="modal-header">
+    <h5 class="modal-title" id="exampleModalLabel">
+        @Model.Role.Name Edit
+    </h5>
+
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+
+<div class="modal-body">
+    <form class="ajax-form" action="@Url.Action("CreateRole", "Role", new { area = "UserModule" })" method="POST">
+        @Html.AntiForgeryToken()
+        <div class="row">
+
+            <!-- Name -->
+            <div class="col-md-12 form-group">
+                <label>Name</label>
+                <input class="form-control" name="name" type="text" value="@Model.Role.Name" />
+            </div>
+
+            <!-- Status -->
+            <div class="col-md-12 form-group">
+                <label>Status</label>
+                <select class="form-control" name="isActive">
+                    <option value="1">Active</option>
+                    <option value="0">In Active</option>
+                </select>
+            </div>
+
+            <div class="form-group col-md-12">
+                <label class="fw-bold">Permissions <span class="text-danger">*</span></label>
+
+                <div class="row module-item">
+                    @foreach (var module in Model.Modules)
+                    {
+                        <div class="col-md-12 col-12 sub-module-box">
+                            <label class="module-header d-flex align-items-center ps-2">
+                                <input type="checkbox" 
+                                    @(Model.Role.RolePermissions.Any(rolePermission => rolePermission.Permission.Key == module.Key) ? "checked" : "" ) 
+                                    class="module_check me-2" name="permissionIds[]" 
+                                    value="@module.Permissions.FirstOrDefault(permission => permission.Key == module.Key)?.Id" />
+                                @module.Name
+                            </label>
+
+                            <div class="sub-permission-box">
+                                @foreach (var permission in module.Permissions)
+                                {
+                                    @if (module.Key != permission.Key)
+                                    {
+                                        <div class="sub-permission-item">
+                                            <label class="d-flex align-items-center">
+                                                <input type="checkbox" 
+                                                       @(Model.Role.RolePermissions.Any(rolePermission => rolePermission.Permission.Key == permission.Key) ? "checked" : "disabled")
+                                                    class="sub_module_check me-2" name="permissionIds[]"  
+                                                    value="@permission.Id" />
+                                                @permission.DisplayName
+                                            </label>
+                                        </div>
+                                    }
+
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+
+                <div class="col-md-12 form-group text-right">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                    <button class="btn btn-success">
+                        Save
+                    </button>
+                </div>
+
+            </div>
+    </form>
+</div>
+
+
+
+<script>
+    $(".module_check").on("change", function () {
+        console.log("called")
+        let $container = $(this).closest("div.sub-module-box");
+
+        if ($(this).is(":checked")) {
+            // Enable all sub permissions
+            $container.find(".sub-permission-box .sub_module_check").removeAttr("disabled");
+        } else {
+            // Disable all sub permissions and uncheck them
+            $container.find(".sub-permission-box .sub_module_check")
+                .prop("checked", false)
+                .attr("disabled", "disabled");
+        }
+
+    });
+</script>

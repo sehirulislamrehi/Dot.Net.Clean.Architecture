@@ -22,9 +22,39 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Roles
         }
         public async Task<IEnumerable<Role>> GetAllRole(JsonElement? queryParam = null)
         {
-            var query = _dbContext.Role
+            var query = _dbContext.Roles
                 .AsQueryable();
+
+            if (queryParam.HasValue)
+            {
+                var param = queryParam.Value;
+                if (param.TryGetProperty("Name", out var name))
+                {
+                    var nameValue = name.GetString();
+                    if (!string.IsNullOrEmpty(nameValue))
+                    {
+                        query = query.Where(u => u.Name == nameValue);
+                    }
+                }
+            }
+
             return query.OrderByDescending(u => u.Id);
+        }
+
+        
+        public async Task<Role?> GetRoleById(int id)
+        {
+            return await _dbContext.Roles
+                .Include(query => query.RolePermissions)
+                    .ThenInclude(rolePermission => rolePermission.Permission)
+                .FirstOrDefaultAsync(query => query.Id == id);
+        }
+
+        public async Task<Role> CreateRole(Role role)
+        {
+            _dbContext.Roles.Add(role);
+            await _dbContext.SaveChangesAsync();
+            return role;
         }
 
     }

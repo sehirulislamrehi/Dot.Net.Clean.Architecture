@@ -15,47 +15,47 @@ namespace CleanArchitecture.Infrastructure.Seeders.Ecommerce.Common
         {
 
             // Insert modules with fixed IDs
-            var insertDatas = new List<Permissions>
+            var insertDatas = new List<Permission>
             {
 
-                #region User Module #1
-                new Permissions
+                #region User Module #2
+                new Permission
                 {
                     Id = 1,
                     Key = "users",
                     Position = 1,
                     DisplayName = "Users",
-                    ModuleId = 1,
+                    ModuleId = 2,
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 },
-                new Permissions
+                new Permission
                 {
                     Id = 2,
                     Key = "manage_users",
                     Position = 2,
                     DisplayName = "Manage Users",
-                    ModuleId = 1,
+                    ModuleId = 2,
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 },
-                new Permissions
+                new Permission
                 {
                     Id = 3,
                     Key = "manage_roles",
                     Position = 3,
                     DisplayName = "Manage Roles",
-                    ModuleId = 1,
+                    ModuleId = 2,
                     CreatedAt = DateTime.UtcNow,
                     UpdatedAt = DateTime.UtcNow
                 },
-                #endregion User Module #1
+                #endregion User Module #2
                 
             };
 
             await context.Database.ExecuteSqlRawAsync("ALTER TABLE Modules NOCHECK CONSTRAINT ALL;");
             await context.Database.ExecuteSqlRawAsync("ALTER TABLE Permissions NOCHECK CONSTRAINT ALL;");
-            await context.Database.ExecuteSqlRawAsync("ALTER TABLE RolePermission NOCHECK CONSTRAINT ALL;");
+            await context.Database.ExecuteSqlRawAsync("ALTER TABLE RolePermissions NOCHECK CONSTRAINT ALL;");
 
             // Remove all existing data
             var datas = await context.Permissions.ToListAsync();

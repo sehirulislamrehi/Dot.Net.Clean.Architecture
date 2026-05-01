@@ -17,8 +17,11 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecomme
             builder.HasKey(r => r.Id);
 
             builder.Property(r => r.Name)
-                .IsRequired()
+                .IsRequired(true)
                 .HasMaxLength(50);
+
+            builder.HasIndex(r => r.Name)
+                .IsUnique();
 
             builder.Property(r => r.IsActive)
                 .HasDefaultValue(false);
@@ -28,6 +31,11 @@ namespace CleanArchitecture.Infrastructure.DatabaseContext.Configurations.Ecomme
 
             builder.Property(r => r.UpdatedAt)
                 .HasDefaultValueSql("GETUTCDATE()");
+
+            builder.HasMany(r => r.RolePermissions)
+                .WithOne(rp => rp.Role)
+                .HasForeignKey(rp => rp.RoleId)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

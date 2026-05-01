@@ -18,7 +18,7 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Users
 
         public async Task<IEnumerable<User>> GetUserData(JsonElement? queryParam = null)
         {
-            var query = _dbContext.User
+            var query = _dbContext.Users
                 .Include(u => u.Role)
                 .AsQueryable();
 
@@ -67,7 +67,7 @@ namespace CleanArchitecture.Infrastructure.Ecommerce.Repository.UserModule.Users
         {
             if(user.Id == 0)
             {
-                await _dbContext.User.AddAsync(user);
+                await _dbContext.Users.AddAsync(user);
             }
             await _dbContext.SaveChangesAsync();
             return user;

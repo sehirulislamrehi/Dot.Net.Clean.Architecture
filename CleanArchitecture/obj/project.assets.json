@@ -5383,23 +5383,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\mdseh\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\CleanArchitecture.csproj",
+      "projectUniqueName": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\CleanArchitecture.csproj",
       "projectName": "CleanArchitecture",
-      "projectPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\CleanArchitecture.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture\\obj\\",
+      "projectPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\CleanArchitecture.csproj",
+      "packagesPath": "C:\\Users\\mdseh\\.nuget\\packages\\",
+      "outputPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mdseh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5412,16 +5412,17 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
-              "projectPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
+            "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj": {
+              "projectPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Application\\CleanArchitecture.Application.csproj"
             },
-            "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
-              "projectPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
+            "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj": {
+              "projectPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Domain\\CleanArchitecture.Domain.csproj"
             },
-            "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
-              "projectPath": "E:\\PRAN-RFL\\practise\\cSharp\\CleanArchitecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
+            "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj": {
+              "projectPath": "E:\\works\\projects\\Dot.Net.Clean.Architecture\\CleanArchitecture.Infrastructure\\CleanArchitecture.Infrastructure.csproj"
             }
           }
         }
@@ -5436,10 +5437,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "BCrypt.Net-Next": {
@@ -5471,19 +5473,19 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.26, 8.0.26]"
           },
           {
             "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.26, 8.0.26]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.26, 8.0.26]"
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[8.0.23, 8.0.23]"
+            "version": "[8.0.26, 8.0.26]"
           }
         ],
         "frameworkReferences": {
@@ -5494,7 +5496,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

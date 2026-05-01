@@ -1,4 +1,6 @@
-﻿using CleanArchitecture.Domain.Ecommerce.IRepository.CommonModule;
+﻿using CleanArchitecture.Application.Ecommerce.IServices.CommonModule;
+using CleanArchitecture.Application.Ecommerce.Services.CommonModule;
+using CleanArchitecture.Domain.Ecommerce.IRepository.CommonModule;
 using CleanArchitecture.Infrastructure.Ecommerce.Repository.CommonModule;
 
 namespace CleanArchitecture.Extensions.Ecommerce
@@ -10,6 +12,7 @@ namespace CleanArchitecture.Extensions.Ecommerce
 
             #region Module
             services.AddScoped<IModuleRepository, ModuleRepository>();
+            services.AddScoped<IModuleService, ModuleService>();
             #endregion Module End
 
             return services;

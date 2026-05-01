@@ -13,5 +13,7 @@ namespace CleanArchitecture.Domain.Ecommerce.Entities.Users
         public bool IsActive { get; set; } = false;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public DateTime UpdatedAt { get; set; }
+
+        public ICollection<RolePermission> RolePermissions { get; set; } = new List<RolePermission>();
     }
 }
